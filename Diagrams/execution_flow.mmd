@@ -1,0 +1,30 @@
+flowchart TD
+    Start([User launches WindowsHealingSystem.ps1]) --> AdminCheck{Is Admin?}
+    AdminCheck -- No --> UAC[Prompt for UAC & Restart] --> Stop([Exit Current])
+    AdminCheck -- Yes --> Init[Initialize Variables & Dot-Source Scripts]
+    
+    Init --> ArgCheck{CLI args / Presets provided?}
+    ArgCheck -- Yes --> CLIMode[Bypass GUI, Parse Args]
+    ArgCheck -- No --> GUIMode[Show-MainWindow.ps1]
+
+    GUIMode --> GUILoad[Load XAML & Parse Features.json]
+    GUILoad --> UserInteract[User selects Tweaks & Apps]
+    UserInteract --> ApplyBtn[User clicks Apply]
+    ApplyBtn --> BuildParams[Generate script:Params]
+    BuildParams --> ShowModal[Show-ApplyModal.ps1]
+
+    CLIMode --> ExecAll[ExecuteAllChanges]
+    ShowModal -->|Background Job| ExecAll
+
+    ExecAll --> LoopParams{For each selected param}
+    LoopParams -->|Next| ExecParam[ExecuteParameter]
+    
+    ExecParam --> Route{Action Type?}
+    Route -- App Removal --> RemoveApps[RemoveApps.ps1]
+    Route -- Tweak --> ImportReg[ImportRegistryFile.ps1]
+    Route -- System Feature --> EnableFeat[EnableWindowsFeature.ps1]
+
+    Route --> LoopParams
+    LoopParams -->|Done| RestartExp{Restart Explorer?}
+    RestartExp -- Yes --> DoRestart[RestartExplorer] --> Finish([Done])
+    RestartExp -- No --> Finish

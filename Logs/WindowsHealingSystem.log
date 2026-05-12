@@ -1,0 +1,282 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260511042738
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 14160
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20260511042741
+**********************
+PS>TerminatingError(): "Exception calling "Show" with "0" argument(s): "Cannot set unknown member 'System.Windows.Controls.StackPanel.Padding'.""
+WARNING: Unable to load WPF GUI (not supported in this environment), falling back to CLI mode
+
+Press any key to continue...
+**********************
+Windows PowerShell transcript start
+Start time: 20260511043030
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 3692
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260511043722
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511044532
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 30604
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511050624
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 6088
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511053006
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 6428
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260511053308
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511053347
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 26316
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260511053555
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511053611
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 20632
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260511053835
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511053912
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Downloads\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 20204
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260511054021
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260511174317
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: PowerShell -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Documents\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1 
+Process ID: 8780
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260511174931
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260512073833
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Documents\WindowsHealingSystem-2026.04.26\WindowsHealingSystem-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 3116
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[WHS] Import Clicked
+**********************
+Windows PowerShell transcript end
+End time: 20260512073900
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260512074034
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Documents\Win11Debloat-2026.04.26\Win11Debloat-2026.04.26\WindowsHealingSystem.ps1
+Process ID: 19992
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260512074040
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260512074051
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: PowerShell -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Documents\Win11Debloat-2026.04.26\Win11Debloat-2026.04.26\WindowsHealingSystem.ps1 
+Process ID: 3992
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260512074056
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260512074606
+Username: X-37\X-37
+RunAs User: X-37\X-37
+Configuration Name: 
+Machine: X-37 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\X-37\Documents\WindowsHealingSystem\WindowsHealingSystem.ps1
+Process ID: 11192
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20260512074612
+**********************

@@ -1,0 +1,40 @@
+flowchart LR
+    subgraph Inputs
+        CLIArgs[CLI Arguments]
+        GUIInteract[WPF Checkboxes & Combos]
+        JsonPresets[Config/DefaultSettings.json]
+    end
+
+    subgraph State Object
+        ParamsDict[Global script:Params Hashtable]
+    end
+
+    subgraph Data Sources
+        FeaturesJson[(Features.json)]
+        AppsJson[(Apps.json)]
+    end
+
+    subgraph Execution Routing
+        ExecParam[ExecuteParameter]
+        RegistryFiles[(Regfiles/*.reg)]
+    end
+
+    subgraph System Side-Effects
+        WinRegistry[(Windows Registry)]
+        WinGet[WinGet Manager]
+        Appx[Appx Provisioning]
+    end
+
+    CLIArgs -->|Populates| ParamsDict
+    GUIInteract -->|AddParameter| ParamsDict
+    JsonPresets -->|ImportConfigToParams| ParamsDict
+
+    ParamsDict -->|Keys mapped to FeatureIds| ExecParam
+    FeaturesJson -->|Provides Registry Key mapping| ExecParam
+    AppsJson -->|Provides Appx/WinGet IDs| ExecParam
+
+    ExecParam -->|Reads target .reg| RegistryFiles
+    RegistryFiles -->|ImportRegistryFile| WinRegistry
+
+    ExecParam -->|Passes AppIDs| WinGet
+    ExecParam -->|Passes AppIDs| Appx

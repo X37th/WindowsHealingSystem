@@ -1,0 +1,44 @@
+graph TB
+    subgraph Bootstrapper
+        Main[WindowsHealingSystem.ps1]
+    end
+
+    subgraph GUI Engine
+        ShowMain[Show-MainWindow.ps1]
+        ShowModal[Show-ApplyModal.ps1]
+        ShowApp[Show-AppSelectionWindow.ps1]
+    end
+
+    subgraph Data & Config
+        LoadJson[LoadJsonFile.ps1]
+        FeatJson[(Features.json)]
+        AppJson[(Apps.json)]
+    end
+
+    subgraph Execution Engine
+        ExecChanges[ExecuteChanges.ps1]
+        RegImport[ImportRegistryFile.ps1]
+    end
+
+    subgraph App Removal Engine
+        RemApps[RemoveApps.ps1]
+        ForceEdge[ForceRemoveEdge.ps1]
+        NonBlock[Invoke-NonBlocking.ps1]
+    end
+
+    Main -->|Invokes| ShowMain
+    Main -->|Invokes CLI direct| ExecChanges
+    
+    ShowMain -->|Triggers| ShowModal
+    ShowModal -->|Background task| ExecChanges
+    
+    ShowMain -->|Reads| LoadJson
+    LoadJson --> FeatJson
+    LoadJson --> AppJson
+
+    ExecChanges -->|Maps to| RegImport
+    ExecChanges -->|Routes to| RemApps
+
+    RemApps -->|Safe Threading| NonBlock
+    RemApps -->|Fallback| ForceEdge
+    ShowMain -->|Async Loading| NonBlock
